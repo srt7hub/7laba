@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FEBB41;
+}
+
+.container {
+    max-width: 1700px;
+    width: 100%;
+    padding: 60px 160px;
+    margin: 0 auto;
+}
+
+.contentblock {
+    background: #F4ECE1;
+    border-radius: 24px;
+    padding: 30px 40px 60px 80px;
+}
+
+.headerrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.hat {
+    width: 32px;
+}
+
+.logotip {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navlink:hover {
+    color: #FF7E00;
+}
+
+
+.poisk {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    background: #fff8f0;
+    padding: 12px 20px;
+    border-radius: 30px;
+    max-width: 180px;
+}
+
+.searchicon {
+    width: 16px;
+}
+
+.poisktext {
+    font-size: 18px;
+}
+
+.cartw {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart {
+    position: relative;
+}
+
+.carticon {
+    width: 20px;
+}
+
+.cartnumber {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.glavnyirow {
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.glavnyitekst {
+    flex: 1;
+}
+
+.zagolovokw {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fast {
+    font-size: 120px;
+    font-weight: bold;
+    color: #FF7E00;
+    line-height: 0.9;
+}
+
+.foodblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2F2F2F;
+    line-height: 1.1;
+}
+
+.opisanie {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #909090;
+}
+
+.knopki {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.knopkaorder {
+    background: #2F2F2F;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.knopkaorder:hover {
+    background: #FF7E00;
+}
+
+.videow {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.strelkakrug {
+    width: 50px;
+    height: 50px;
+    background: #fff8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strelkakrug:hover {
+    background: #FFE5C2;
+}
+
+.polygon {
+    width: 0;
+    height: 0;
+    border-left: 10px solid black;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.star {
+    color: #FEBB41;
+    font-size: 24px;
+}
+
+.reitingtext {
+    font-weight: bold;
+}
+
+.reitingbased {
+    color: gray;
+    font-size: 14px;
+}
+
+.pravayakolonka {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigimage {
+    width: 100%;
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .headerrow {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .poisk {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .glavnyirow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .glavnyitekst {
+        text-align: center;
+    }
+
+    .fast {
+        font-size: 60px;
+    }
+
+    .food {
+        font-size: 28px;
+    }
+
+    .opisanie {
+        font-size: 16px;
+    }
+
+    .knopki {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pravayakolonka {
+        margin-top: 20px;
+    }
+
+    .bigimage {
+        max-width: 300px;
+    }
+}
